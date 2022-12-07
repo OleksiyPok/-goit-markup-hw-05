@@ -473,7 +473,6 @@ body {
   align-items: center;
 
   transition: border-color var(--transition-variable), fill var(--transition-variable);
-  /* transition: border-color var(--transition-variable); */
 }
 
 .customers-link:hover,
@@ -648,8 +647,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* transition: fill var(--transition-cubic); */
 }
 
 .modal-close-icon {
