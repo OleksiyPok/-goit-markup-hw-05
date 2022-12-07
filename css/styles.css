@@ -603,7 +603,7 @@ body {
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-  transition: opacity 250ms;
+  transition: opacity var(--transition-variable);
 }
 
 .backdrop.is-hidden .modal {
@@ -625,7 +625,7 @@ body {
   padding-right: 25px;
 
   /* transform-origin: top left; */
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms;
+  transition: transform var(--transition-variable), opacity var(--transition-variable);
 }
 
 .modal-close {
